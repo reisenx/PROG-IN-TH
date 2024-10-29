@@ -4,7 +4,10 @@ double a,b,c;
 
 int main()
 {
-    //Input a and b
+    // This makes std::cin and std::cout faster
+    ios_base::sync_with_stdio(false); cin.tie(0);
+
+    // Input a and b
     cin >> a >> b;
     
     // Calculate c (Pythagorus Theorem)
