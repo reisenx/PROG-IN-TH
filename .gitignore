@@ -1,0 +1,17 @@
+# Visual Studio Code Config
+.vscode
+
+# Competitive Programming Helper Extension (.cph) file
+*.cph
+
+# Code testing
+*test.py
+*test.cpp
+*test.java
+*.exe
+*.class
+
+# Python Library Cache
+*__pycache__
+*.ruff_cache
+*.mypy_cache
